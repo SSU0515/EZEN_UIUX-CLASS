@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "nexonv1";
+  src: url("./font/NEXON-Lv1-Gothic-Low-OTF.ttf");
+}
+body {
+  font-family: nexonv1;
+}
+
+.a {
+  font-style: italic;
+  font-size: 32px;
+}
+
+.b {
+  font-size: 2em;
+}
+
+.c {
+  font-size: large;
+}
+
+.d {
+  font-weight: bold;
+  font-size: small;
+}

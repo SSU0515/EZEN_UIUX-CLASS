@@ -1,0 +1,8 @@
+div {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #d529db 30%, #7db9e8 100%);
+}

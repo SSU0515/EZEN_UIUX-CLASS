@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#aside {
+  width: 200px;
+  float: left;
+}
+
+#content {
+  width: 760px;
+  float: left;
+}
+
+section {
+  overflow: hidden;
+}

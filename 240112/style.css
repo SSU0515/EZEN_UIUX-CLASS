@@ -1,0 +1,20 @@
+fieldset {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+div {
+  text-align: center;
+}
+label {
+  color: lightseagreen;
+  font-weight: bold;
+}
+
+#testbox {
+  width: 310px;
+}
+
+input {
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+@import url(./reset03.css);
+
+#header {
+  width: 960px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #f00;
+}
+
+#title {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+#navigation_top {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+#navigation_bottom {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+#navigation_top ul {
+  overflow: hidden;
+}
+
+#navigation_top li {
+  float: left;
+}
+
+#navigation_top a {
+  display: block;
+  padding: 5px 20px;
+  border: 1px solid pink;
+}
+
+#navigation_top li:first-child a {
+  border-radius: 10px 0 0 10px;
+}
+
+#navigation_bottom ul {
+  overflow: hidden;
+}
+
+#navigation_bottom li {
+  float: left;
+}
+
+#navigation_bottom a {
+  display: block;
+  padding: 5px 20px;
+  border: 1px solid pink;
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./logo_1.png">
+    <!--custom css-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--fontawesome js-->
+    <script
+      defer
+      src="https://kit.fontawesome.com/ad3c8d7952.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--custom js-->
+    <script defer src="./script.js"></script>
+    <title>여기어때 | 해외여행, 호텔, 리조트 , 캠핑, 펜션, 모텔, 풀빌라 예약</title>
+  </head>
+  <body>
+    <main>
+      <!--header-->
+      <header>
+        <div>
+          <span>
+            <a href="#">
+              <img width="100" src="./logo.png" alt="logo" /> 
+            </a>
+          </span>
+          <nav>
+            <div>
+              <span>이벤트</span>
+              <span>고객센터</span>
+              <span id="icon-group">
+                <span><i class="fa-solid fa-bars"></i> </span>
+                <span>
+                  <i class="fa-regular fa-user"></i>
+                </span>
+              </span>
+            </div>
+            <ul id="gnb">
+              <li><a href="#">회원가입/로그인</a></li>
+              <li><a href="#">비회원 예약조회</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </nav>
+          <div class="trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <!--figure-->
+      <figure>
+        <div id="slide">
+          <h1>국내부터 해외까지<br />여행할때 여기어때</h1>
+          <div id="schedule">
+            <div id="schedule-title">
+              <span>국내숙소</span>
+              <span>해외숙소</span>
+            </div>
+            <div id="schdeule-bar">
+              <form action="http://localhost/3000/search" method="post">
+                <span>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input
+                  class="schedule-item search"
+                  type="text"
+                  placeholder="여행지나 숙소를 검색해보세요"
+                />
+                <input
+                  class="schedule-item month"
+                  type="date"
+                  placeholder="01.22 월 - 01.26 금 (4박)"
+                />
+                <select class="schedule-item person" name="person" id="person">
+                  <option value="2">인원2</option>
+                  <option value="3">인원3</option>
+                  <option value="4">인원4</option>
+                  <option value="5">인원5</option>
+                  <option value="6">인원6</option></select
+                ><input type="submit" value="검색" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </figure>
+      <!--section-->
+      <section id="contents">
+        <article class="inner-content event">
+          <div class="inner-content-title">
+            <h3>이벤트</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <img src="./2.event/event_01.jpg" alt="event_01" />
+            <img src="./2.event/event_02.jpg" alt="event_02" />
+            <img src="./2.event/event_03.jpg" alt="event_03" />
+          </div>
+          <div id="list">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+        <article class="inner-content local">
+          <div class="inner-content-title">
+            <h3>국내 인기 여행지</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <div>
+              <img src="./3.korean/korean_01.jpg" alt="korean_02" />
+              <div class="slide-title">강릉</div>
+            </div>
+            <div>
+              <img src="./3.korean/korean_02.jpg" alt="korean_02" />
+              <div class="slide-title">경주</div>
+            </div>
+            <div>
+              <img src="./3.korean/korean_03.jpg" alt="korean_03" />
+              <div class="slide-title">부산</div>
+            </div>
+            <div>
+              <img src="./3.korean/korean_04.jpg" alt="korean_04" />
+              <div class="slide-title">서울</div>
+            </div>
+            <div>
+              <img src="./3.korean/korean_05.jpg" alt="korean_05" />
+              <div class="slide-title">인천</div>
+            </div>
+            <div>
+              <img src="./3.korean/korean_06.jpg" alt="korean_06" />
+              <div class="slide-title">제주도</div>
+            </div>
+          </div>
+        </article>
+        <article class="inner-content outside">
+          <div class="inner-content-title">
+            <h3>해외 인기 여행지</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <div>
+              <img src="./4.travel/travel_01.jpg" alt="travel_01" />
+              <div class="slide-title">괌</div>
+            </div>
+            <div>
+              <img src="./4.travel/travel_02.jpg" alt="travel_02" />
+              <div class="slide-title">나트랑/낫짱</div>
+            </div>
+            <div>
+              <img src="./4.travel/travel_03.jpg" alt="travel_03" />
+              <div class="slide-title">다낭</div>
+            </div>
+            <div>
+              <img src="./4.travel/travel_04.jpg" alt="travel_04" />
+              <div class="slide-title">도쿄/동경</div>
+            </div>
+            <div>
+              <img src="./4.travel/travel_05.jpg" alt="travel_05" />
+              <div class="slide-title">오사카</div>
+            </div>
+            <div>
+              <img src="./4.travel/travel_06.jpg" alt="travel_06" />
+              <div class="slide-title">후쿠오카</div>
+            </div>
+          </div>
+        </article>
+        <article class="inner-content hot">
+          <div class="inner-content-title">
+            <div id="inner-content-titlegroup">
+              <h3>인기 추천 숙소</h3>
+              <div id="badge">
+                <span>전체</span>
+                <span>호텔</span>
+                <span>호텔/리조트</span>
+                <span>펜션/풀빌라</span>
+                <span>프리미엄 블랙</span>
+                <span>캠핑/글램핑</span>
+                <span>홈&빌라</span>
+                <span>게하/한옥</span>
+              </div>
+            </div>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <div>
+              <img src="./5.favorite room/favorite_01.jpg" alt="favorite_01" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>블랙,특급.호텔</div>
+                  <div>세인트존스 호텔</div>
+                  <div>강릉시,강릉 강문해변 앞</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.0</i>
+                    </span>
+                    <span> 6,159명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>995,000원</span>
+                    <span>1,045,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./5.favorite room/favorite_02.jpg"
+                alt="favorite02"
+              />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>모텔</div>
+                  <div>구월 반월 아시아드호텔</div>
+                  <div>인천터미널역 도보 14분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star"> 9.5</i>
+                    </span>
+                    <span> 8,286명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>85,100원</span>
+                    <span>90,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./5.favorite room/favorite_03.jpg"
+                alt="favorite03"
+              />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>모텔</div>
+                  <div>구월동 구월호텔</div>
+                  <div>인천터미널역 도보 14분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star"> 9.5</i>
+                    </span>
+                    <span> 9,027명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>85,100원</span>
+                    <span>90,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./5.favorite room/favorite_04.jpg"
+                alt="favorite04"
+              />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>모텔</div>
+                  <div>길동 MARI-마리</div>
+                  <div>길동역 도보 3분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star"> 9.4</i>
+                    </span>
+                    <span> 660명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>78,000원</span>
+                    <span>85,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </article>
+        <article class="inner-content special">
+          <div class="inner-content-title">
+            <h3>오늘 체크인 호텔 특가</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <div>
+              <img src="./6.today hotel/hotel_01.jpg" alt="hotel_01" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>블랙,특급.호텔</div>
+                  <div>세인트존스 호텔</div>
+                  <div>강릉시,강릉 강문해변 앞</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.0</i>
+                    </span>
+                    <span> 6,159명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>995,000원</span>
+                    <span>1,045,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./6.today hotel/hotel_02.jpg" alt="hotel_02" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>특급,호텔</div>
+                  <div>더 스테이트 선유 호텔</div>
+                  <div>영등포구,선유도역 도보 2분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.0</i>
+                    </span>
+                    <span> 4,016명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div style="visibility: hidden;">쿠폰적용시</div>
+                  <div>
+                    <span style="
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 16px;
+                  ">다른 날짜 확인</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./6.today hotel/hotel_03.jpg" alt="hotel_03" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>가족호텔,호텔</div>
+                  <div>센텀마크 호텔 양양</div>
+                  <div>양양군,양양종합터미널 차량 3분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.3</i>
+                    </span>
+                    <span> 703명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>85,250원</span>
+                    <span>95,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./6.today hotel/hotel_04.jpg" alt="hotel_04" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>특1급,호텔</div>
+                  <div>유탑 마리나 호텔 & 리조트 여수</div>
+                  <div>여수시,여수엑스포역 차량 2분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.3</i>
+                    </span>
+                    <span> 2,478명 평가</span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div>쿠폰적용시</div>
+                  <div>
+                    <span>208,116원</span>
+                    <span>270,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </article>
+        <article class="inner-content pension">
+          <div class="inner-content-title">
+            <h3>이번 주 HOT 인기 펜션</h3>
+            <h5>더보기</h5>
+          </div>
+          <div class="inner-content-slide">
+            <div>
+              <img src="./7.hot pension/pension_01.jpg" alt="pension_01" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>펜션</div>
+                  <div>가평 어거스트청평</div>
+                  <div>가평군,청평호 차량 11분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.0</i>
+                    </span>
+                    <span> 54명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div style="visibility: hidden;">쿠폰적용시</div>
+                  <div>
+                    <span>127,500원</span>
+                    <span style="visibility: hidden;">1,045,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./7.hot pension/pension_02.jpg" alt="pension_02" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>펜션</div>
+                  <div>영종도 블루오션펜션</div>
+                  <div>중구,영종역사관 차량 3분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.3</i>
+                    </span>
+                    <span> 39명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div style="visibility: hidden;">쿠폰적용시</div>
+                  <div>
+                    <span>250,000원</span>
+                    <span style="visibility: hidden;">1,045,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./7.hot pension/pension_03.jpg" alt="pension_03" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>펜션</div>
+                  <div>제주 와홀 팽나무집</div>
+                  <div>제주시,함덕해수욕장 차량 16분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.7</i>
+                    </span>
+                    <span> 6명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div style="visibility: hidden;">쿠폰적용시</div>
+                  <div>
+                    <span style="visibility: hidden;"></span>
+                    <span style="text-decoration: none;
+                    font-weight: 400; font-size: 16px;">다른 날짜 확인</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./7.hot pension/pension_04.jpg" alt="pension_04" />
+              <div class="slide-content-info">
+                <div class="slide-content-info-top">
+                  <div>펜션</div>
+                  <div>화천 스카이밸리 펜션</div>
+                  <div>화천군,곡운구곡 차량 18분</div>
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-star">9.6</i>
+                    </span>
+                    <span> 25명 평가 </span>
+                  </div>
+                </div>
+                <div class="slide-content-info-bottom">
+                  <div style="visibility: hidden;">쿠폰적용시</div>
+                  <div>
+                    <span style="visibility: hidden;"></span>
+                    <span style="text-decoration: none;
+                    font-weight: 400; font-size: 16px;">다른 날짜 확인</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="inner-content blackdeal">
+          <div class="inner-content-title">
+            <div id="subtitle">
+              <h3>이번 주 블랙 PICK</h3>
+              <h4>나를 위한 근사한 휴가 ,여기어때 프리미엄 숙소</h4>
+            </div>
+          </div>
+          <div class="inner-content-slide">
+            <div class="slide-content">
+              <img src="./8.black pick/pick_01.jpg" alt="pick_01" />
+            </div>
+            <div class="slide-content">
+              <img src="./8.black pick/pick_02.jpg" alt="pick_02" />
+            </div>
+            <div class="slide-content">
+              <img src="./8.black pick/pick_03.jpg" alt="pick_03" />
+            </div>
+            <div class="slide-content">
+              <img src="./8.black pick/pick_04.jpg" alt="pick_04" />
+            </div>
+          </div>
+        </article>
+        <article class="inner-content banner">
+          <div id="bannerbg">
+            
+            <div class="slide-banner">
+              <h2>앱 다운로드 받고<br/>더 많은 혜택 받으세요</h2>
+              <h5>국내/해외 숙소부터 항공권까지 <br/>실시간 최저가로 예약하세요.</h5>
+            </div>
+          </div>
+        </article>
+      </section>
+      
+      <!--footer-->
+      <footer>
+        <article class="footer-outside">
+            <div class="footer-title">
+              <h3>국내 여행지</h3>
+            </div>
+            <div class="footer-outsidename">
+              <div><a href="https://www.yeogi.com/domestic-accommodations?keyword=%EA%B2%BD%EA%B8%B0&searchType=KEYWORD&checkIn=2024-01-23&checkOut=2024-01-24&personal=2&freeForm=false" target="_blank"><span>경기</span></a></div>
+              <div><a href="#"><span>제주도</span></a></div>
+              <div><a href="#"><span>충남</span></a></div>
+              <div><a href="#"><span>인천</span></a></div>
+              <div><a href="#"><span>대구</span></a></div>
+              <div><a href="#"><span>대전</span></a></div>
+              <div><a href="#"><span>서울</span></a></div>
+              <div><a href="#"><span>경남</span></a></div>
+              <div><a href="#"><span>부산</span></a></div>
+              <div><a href="#"><span>전북</span></a></div>
+              <div><a href="#"><span>울산</span></a></div>
+              <div><a href="#"><span>광주</span></a></div>
+              <div><a href="#"><span>강원</span></a></div>
+              <div><a href="#"><span>경북</span></a></div>
+              <div><a href="#"><span>전남</span></a></div>
+              <div><a href="#"><span>충북</span></a></div>
+              <div><a href="#"><span>세종</span></a></div>
+            </div>
+        </article>
+        <div class="footer-bar"></div>
+        <article class="footer-outside">
+          <div class="footer-title">
+            <h3>해외 여행지</h3>
+          </div>
+          <div class="footer-outsidename">
+            <div><a href="https://www.yeogi.com/overseas-accommodations?keyword=%EC%98%A4%EC%82%AC%EC%B9%B4&cityId=9590&searchType=CITY&checkIn=2024-02-20&checkOut=2024-02-21&rooms=1&adults=2&countryName=%EC%9D%BC%EB%B3%B8" target="_blank"><span>오사카</span></a></div>
+            <div><a href="#"><span>후쿠오카</span></a></div>
+            <div><a href="#"><span>도쿄/동경</span></a></div>
+            <div><a href="#"><span>다낭</span></a></div>
+            <div><a href="#"><span>싱가포르</span></a></div>
+            <div><a href="#"><span>방콕</span></a></div>
+            <div><a href="#"><span>괌</span></a></div>
+            <div><a href="#"><span>세부</span></a></div>
+            <div><a href="#"><span>나트랑/나짱</span></a></div>
+            <div><a href="#"><span>교토</span></a></div>
+            <div><a href="#"><span>타이베이</span></a></div>
+            <div><a href="#"><span>보라카이</span></a></div>
+            <div><a href="#"><span>삿포로</span></a></div>
+            <div><a href="#"><span>유후</span></a></div>
+            <div><a href="#"><span>홍콩</span></a></div>
+            <div><a href="#"><span>호놀롤루(HI)</span></a></div>
+            <div><a href="#"><span>오키나와 본섬</span></a></div>
+            <div><a href="#"><span>호치민</span></a></div>
+            <div><a href="#"><span>보홀</span></a></div>
+            <div><a href="#"><span>코타키나발루</span></a></div>
+            <div><a href="#"><span>호이안</span></a></div>
+            <div><a href="#"><span>파타야</span></a></div>
+            <div><a href="#"><span>마카오</span></a></div>
+            <div><a href="#"><span>발리</span></a></div>
+            <div><a href="#"><span>푸쿽/푸꾸옥 섬</span></a></div>
+            <div><a href="#"><span>판티엣</span></a></div>
+            <div><a href="#"><span>프라하</span></a></div>
+            <div><a href="#"><span>달랏</span></a></div>
+            <div><a href="#"><span>비엔나/빈</span></a></div>
+          </div>
+      </article>
+      <div class="footer-bar"></div>
+      <article class="footer-outside">
+        <div class="footer-title">
+          <h3>인기 검색 키워드</h3>
+        </div>
+        <div class="footer-outsidename">
+          <div><a href="https://www.yeogi.com/domestic-accommodations?keyword=%EA%B0%95%EB%A6%89&searchType=KEYWORD&checkIn=2024-01-23&checkOut=2024-01-24&personal=2&freeForm=true" target="_blank"><span>강릉</span></a></div>
+          <div><a href="#"><span>제주도</span></a></div>
+          <div><a href="#"><span>충남</span></a></div>
+          <div><a href="#"><span>인천</span></a></div>
+          <div><a href="#"><span>대구</span></a></div>
+          <div><a href="#"><span>대전</span></a></div>
+          <div><a href="#"><span>서울</span></a></div>
+          <div><a href="#"><span>경남</span></a></div>
+          <div><a href="#"><span>부산</span></a></div>
+          <div><a href="#"><span>거제</span></a></div>
+          <div><a href="#"><span>광안리</span></a></div>
+          <div><a href="#"><span>광주</span></a></div>
+          <div><a href="#"><span>강원</span></a></div>
+          <div><a href="#"><span>무주</span></a></div>
+          <div><a href="#"><span>양양</span></a></div>
+          <div><a href="#"><span>충북</span></a></div>
+          <div><a href="#"><span>세종</span></a></div>
+        </div>
+    </article>
+      </footer>
+      <!--top btn-->
+      <a class="gototop" href="#">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </main>
+  </body>
+</html>

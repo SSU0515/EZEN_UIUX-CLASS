@@ -1,0 +1,42 @@
+@import url("./reset05.css");
+body {
+  height: 100vh;
+}
+header {
+  height: 200px;
+  background: yellowgreen;
+  color: #fff;
+  line-height: 200px;
+  font-size: 25px;
+  text-align: center;
+}
+article,
+aside,
+nav {
+  height: calc(100vh - 300px);
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+article {
+  background: steelblue;
+  flex: 3;
+}
+aside {
+  background: salmon;
+  flex: 1;
+}
+nav {
+  background: skyblue;
+  flex: 1;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  font-size: 25px;
+}

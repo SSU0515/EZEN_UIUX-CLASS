@@ -1,0 +1,16 @@
+.parent {
+  border: 5px solid steelblue;
+  display: flex;
+}
+
+.parent div {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: salmon;
+}
+/*자식요소에 마진을 주려면 부모요소에 마진이 들어가면 안된다.*/
+.child2 {
+  margin: auto;
+}

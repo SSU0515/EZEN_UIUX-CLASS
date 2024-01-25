@@ -1,0 +1,46 @@
+@import url("./reset07.css");
+
+body {
+  height: 100vh;
+}
+.content {
+  display: flex;
+  height: 100vh;
+}
+nav {
+  flex: 1;
+  background-color: #eee;
+}
+section {
+  flex: 4;
+}
+header {
+  height: 150px;
+  background: pink;
+  color: #fff;
+}
+.inner_content {
+  display: flex;
+  justify-content: space-between;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 150px);
+}
+
+article {
+  background: steelblue;
+  flex-grow: 4;
+}
+aside {
+  background: salmon;
+  flex-grow: 1;
+}
+footer {
+  background: #000;
+  color: #fff;
+  height: 150px;
+}

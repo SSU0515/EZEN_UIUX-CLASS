@@ -1,0 +1,32 @@
+/*
+body {
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}*/
+.parent {
+  border: 5px solid #000;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+}
+.parent div {
+  width: 300px;
+  background: pink;
+  text-align: center;
+  color: #000;
+  margin: 5px;
+}
+.child1 {
+}
+
+/* .child2 {
+  height: 200px;
+} */

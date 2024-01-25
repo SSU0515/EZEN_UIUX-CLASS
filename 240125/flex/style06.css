@@ -1,0 +1,43 @@
+@import url("./reset06.css");
+
+body {
+  height: 100vh;
+}
+.content {
+  display: flex;
+  height: 100vh;
+}
+nav {
+  flex: 1;
+  background-color: #eee;
+}
+section {
+  flex: 4;
+}
+header {
+  height: 150px;
+  background: pink;
+  color: #fff;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+article,
+aside {
+  height: calc(100vh - 300px);
+}
+article {
+  background: steelblue;
+  flex: 1;
+}
+aside {
+  background: salmon;
+  flex: 1;
+}
+footer {
+  background: #000;
+  color: #fff;
+  height: 150px;
+}

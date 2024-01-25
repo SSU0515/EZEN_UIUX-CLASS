@@ -1,0 +1,28 @@
+.parent {
+  border: 5px solid steelblue;
+  height: 500px;
+  display: flex;
+}
+.parent div {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+}
+.child1 {
+  background: salmon;
+  flex: 1;
+  order: 1;
+  align-self: flex-end;
+}
+.child2 {
+  background: forestgreen;
+  flex: 2;
+  order: 2;
+}
+.child3 {
+  background: silver;
+  flex: 3;
+  order: 3;
+}

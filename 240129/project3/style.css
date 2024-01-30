@@ -11,6 +11,7 @@ header .inner {
   margin: 0 auto;
   position: relative;
 }
+
 header .inner h1 {
   position: absolute;
   left: 0;
@@ -27,24 +28,29 @@ header .inner .util {
   right: 30px;
   overflow: hidden;
 }
+
 header .inner .util li {
   float: left;
 }
+
 header .inner .util li a {
   display: block;
   color: #999;
   padding: 2px 9px;
   font: 12px/1 "arial";
 }
+
 header .inner #gnb {
   position: absolute;
   bottom: 0;
   right: 0;
   overflow: hidden;
 }
+
 header .inner #gnb li {
   float: left;
 }
+
 header .inner #gnb li a {
   display: block;
   font: bold 15px/1 "arial";
@@ -52,7 +58,142 @@ header .inner #gnb li a {
   padding: 20px 40px;
   transition: sll 0.5s;
 }
+
 header .inner #gnb li a:hover {
   background: #555;
   color: #fff;
+}
+
+/*figure*/
+figure {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  padding-top: 250px;
+}
+figure video {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+figure .inner {
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+}
+figure .inner h2 {
+  color: #fff;
+  font: normal 120px/1 "arial";
+  margin-bottom: 20px;
+}
+figure .inner p {
+  color: #888;
+  font: nomal 16px/1.4 arial;
+  margin-bottom: 60px;
+}
+figure .inner a {
+  display: block;
+  width: 400px;
+  height: 30px;
+  color: #fff;
+  border: 1px solid #bbb;
+  text-align: center;
+  font: bold 11px/30px "arial";
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+figure .inner a:hover {
+  background: #fff;
+  color: #555;
+}
+
+/*section*/
+section {
+  width: 100%;
+  padding: 200px 0;
+}
+section .inner {
+  width: 1180px;
+  margin: 0 auto;
+}
+section .inner h1 {
+  color: #555;
+  font: bold 24px/1 "arial";
+  text-align: center;
+  margin-bottom: 50px;
+}
+section .inner .wrap {
+  width: 100%;
+  overflow: hidden;
+}
+section .inner .wrap article {
+  width: 280px;
+  float: left;
+  margin-right: 20px;
+}
+section .inner .wrap article:last-child {
+  margin-right: 0;
+}
+
+section .inner .wrap article .pic {
+  width: 100%;
+  height: 120px;
+}
+
+section .inner .wrap article .pic img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+section .inner .wrap article h2 {
+  margin-bottom: 10px;
+}
+section .inner .wrap article h2 a {
+  color: #555;
+  font: bold 16px/1 "arial";
+}
+section .inner .wrap article p {
+  font: normal 14px/1.4 "arial";
+  color: #777;
+}
+footer {
+  width: 100%;
+  background: #333;
+  border-top: 1px solid #888;
+  padding: 100px 0;
+}
+footer .inner {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+footer .inner .upper {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #777;
+}
+footr .inner .upper h1 {
+  color: #666;
+  float: left;
+  font: bold 14px/1 "arial";
+}
+footer .upper ul {
+  float: right;
+  overflow: hidden;
+}
+footer .inner .upper ul li {
+  float: left;
+  margin-left: 28x;
+}
+footer .inner .fupper ul lil a {
+}
+footer .inner .lower {
+  width: 100%;
 }

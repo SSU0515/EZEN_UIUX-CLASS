@@ -56,7 +56,7 @@ header .inner #gnb li a {
   font: bold 15px/1 "arial";
   color: #555;
   padding: 20px 40px;
-  transition: sll 0.5s;
+  transition: all 0.5s;
 }
 
 header .inner #gnb li a:hover {
@@ -179,7 +179,7 @@ footer .inner .upper {
   padding-bottom: 20px;
   border-bottom: 1px solid #777;
 }
-footr .inner .upper h1 {
+footer .inner .upper h1 {
   color: #666;
   float: left;
   font: bold 14px/1 "arial";
@@ -192,7 +192,7 @@ footer .inner .upper ul li {
   float: left;
   margin-left: 28x;
 }
-footer .inner .fupper ul lil a {
+footer .inner .fupper ul li a {
 }
 footer .inner .lower {
   width: 100%;

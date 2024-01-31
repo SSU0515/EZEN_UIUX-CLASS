@@ -1,0 +1,96 @@
+/*css를 사용할 댸 변수 설정 가능 변수는 변할 수 있는 수 상수는 고정되어 있는 수 
+그룹 및 팀 작업을 진행할 때 와이어프레임 메뉴얼 스타일가이드를 보고 메인컬러와
+폰트 사이즈랄 보고 한다 미리 사전에 변수의 값을 고정시켜놓으면 가져와서 사용
+변수는 영어로 variable*/
+@import url(./reset.css);
+:root {
+  --primary-color: #8b99ff;
+  --secondary-color: #ff9038;
+  --background-color: #222222;
+  --font-size: 1.6em;
+}
+
+body {
+  color: var(--background-color);
+  line-height: var(--font-size);
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.best-seller {
+  width: 1230px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.best-header {
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.view-more {
+  float: right;
+  color: #ff4566;
+}
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.items-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item:nth-child(10),
+.item:nth-child(11),
+.item:nth-child(12) {
+  border: none;
+}
+
+.name span {
+  display: block;
+  color: var(--primary-color);
+}
+
+.item:hover .name {
+  color: var(--secondary-color);
+}
+
+/*테블릿*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    align-items: start;
+  }
+
+  .best-seller {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .items-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .items-inner {
+    grid-template-columns: 1fr;
+  }
+}

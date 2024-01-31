@@ -1,0 +1,25 @@
+.parent {
+  border: 5px solid #333;
+  background: pink;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  display: grid;
+}
+.parent div {
+  text-align: center;
+}
+
+.parent div:nth-child(1) {
+  background: seagreen;
+  grid-area: 1/1 / 2/3;
+}
+.parent div:nth-child(2) {
+  background: sandybrown;
+  grid-area: 1/2 / 3/3;
+  z-index: 1;
+}
+.parent div:nth-child(3) {
+  background: salmon;
+  grid-area: 2/2 / 3/4;
+}

@@ -1,0 +1,29 @@
+.parent {
+  border: 3px solid #000;
+  background: pink;
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.parent div {
+  color: #000;
+  font-size: 30px;
+  border: 1px solid #000;
+}
+
+.item1 {
+  background: steelblue;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  background: salmon;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  background: forestgreen;
+  grid-column: 1 / span 3;
+}

@@ -1,0 +1,28 @@
+body {
+  background: #000;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.buttons {
+  width: 600px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.buttons .button {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  line-height: 100px;
+  color: #fff;
+  border-radius: 15px;
+}
+.buttons .button:hover {
+  box-shadow: 0 0 50px salmon;
+}/*# sourceMappingURL=style01.css.map */

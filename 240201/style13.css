@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons button {
+  background: #fff;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 20px 150px;
+}
+.buttons button.approval {
+  border: 2px solid steelblue;
+}
+.buttons button.refuse {
+  border: 2px solid salmon;
+}/*# sourceMappingURL=style13.css.map */

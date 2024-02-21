@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>DOM Study</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <form action="https://localhost:3000/clac.js" method="post">
+        <label for="height">Height (cm)</label>
+        <input id="height" type="number" />
+
+        <label for="weight">Weight (kg)</label>
+        <input id="weight" type="number" />
+
+        <input type="submit" value="Calculator" />
+        <div class="result"></div>
+      </form>
+    </div>
+  </body>
+</html>

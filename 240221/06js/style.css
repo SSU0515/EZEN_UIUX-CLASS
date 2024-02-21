@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+form input[type="number"] {
+  text-align: center;
+}
+
+form input[type="number"]:focus {
+  outline: none;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 6px 0;
+}
+
+.result {
+  color: palevioletred;
+  font-weight: bold;
+}

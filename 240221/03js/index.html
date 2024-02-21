@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>DOM Study</title>
+  </head>
+  <body>
+    <h1>최대공약수 구하기</h1>
+    <p>두 수를 입력한 후 [계산하기] 버튼을 클릭하세요.</p>
+    <form name="testForm" method="post" action="https://localhost:3000">
+      <label for="number1">첫번째 수 :</label>
+      <input id="number1" name="number1" type="text" placeholder="첫번째 수" />
+      <label for="number2">두번째 수 :</label>
+      <input id="number2" name="number2" type="text" placeholder="두번째 수" />
+      <input type="submit" value="계산하기" id="clac" />
+    </form>
+    <div id="result"></div>
+  </body>
+</html>

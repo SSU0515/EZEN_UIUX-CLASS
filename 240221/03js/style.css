@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+#calc {
+  padding: 5px;
+  height: 40px;
+  border: 1px solid #222;
+  transition: all 0.3s;
+}
+
+#calc:hover {
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+#result {
+  width: 150px;
+  height: 60px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align-last: center;
+  line-height: 50px;
+  font-size: 2rem;
+}

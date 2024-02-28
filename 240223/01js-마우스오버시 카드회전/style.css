@@ -1,47 +1,44 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
+/* common */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
 .sns {
   background: #f8f8f8;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
 .sns a {
   border: 5px solid #fff;
-  background: #fff;
+  border-radius: 100%;
   width: 80px;
   height: 80px;
+  background: #fff;
   display: inline-block;
   text-align: center;
   line-height: 70px;
-  border-radius: 100%;
   margin: 0 10px;
   font-size: 24px;
   overflow: hidden;
   position: relative;
 }
-
 .sns a::before {
   content: "";
   position: absolute;
@@ -49,12 +46,12 @@ body {
   bottom: 0;
   width: 100%;
   height: 0;
+  /* background: #00f; */
+  transition: 0.5s;
 }
-
 .sns a:hover::before {
   height: 100%;
 }
-
 .sns a:nth-child(1)::before {
   background: #3b5999;
 }
@@ -70,16 +67,13 @@ body {
 .sns a:nth-child(5)::before {
   background: #e4405f;
 }
-
 .sns a .fa-brands {
   position: relative;
   transition: all 0.3s;
 }
-
 .sns a:hover .fa-brands {
   color: #fff;
 }
-
 .active {
-  transform: rotateY("360deg");
+  transform: rotateY(360deg);
 }

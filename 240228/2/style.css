@@ -12,3 +12,45 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#userInput {
+  width: 320px;
+  height: 150px;
+}
+#result {
+  width: 300px;
+  height: 100px;
+  background: #fcfcfc;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+}
+li {
+  margin: 15px;
+}
+li label {
+  display: inline-block;
+  width: 50px;
+  padding: 5px;
+}
+li input {
+  padding: 5px;
+}
+input[type="submit"] {
+  width: 240px;
+  padding: 5px;
+  border-bottom: none;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  margin-bottom: 10px;
+  color: hotpink;
+}
+form {
+  margin: 30px 0;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid hotpink;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="submit"] {
+  width: 36%;
+  padding: 8px 15px;
+  border: 2px solid hotpink;
+  border-radius: 8px;
+  background: #fff;
+  color: hotpink;
+}
+
+input[type="submit"]:hover {
+  background: hotpink;
+  color: #fff;
+}
+
+#result {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}

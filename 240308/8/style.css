@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* main */
+main {
+  width: 100%;
+  height: 100vh;
+  background: #222;
+  display: flex;
+}
+
+/* header */
+main header {
+  width: 20%;
+  height: 100%;
+  /* border: 10px solid pink; */
+  padding: 10vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+main header h1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+main header h1 i {
+  font-size: 5vw;
+  margin-bottom: 15px;
+}
+main header h1 span {
+  font: normal 0.8vw/1 "arial";
+}
+main header address {
+  font: normal 11px/1.2 "arial";
+  color: #888;
+}
+
+/*nav*/
+
+main nav {
+  position: absolute;
+  top: 10vh;
+  right: 5vh;
+  z-index: 3;
+}
+main nav ul a {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+main section {
+  width: 80%;
+  height: 100%;
+  padding-top: 140px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+}
+
+main section article {
+  position: relative;
+  flex: 1;
+  padding: 70px 40px 100px;
+  opacity: 0.6;
+  transition: flex 1s, opacity 1s;
+  z-index: index 1;
+  cursor: pointer;
+}
+main section article::after {
+  flex: 1.5;
+  opacity: 1;
+  z-index: 2;
+}
+main section article::before {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 95%;
+  background: #444;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  opacity: 0;
+  transition: all 1s;
+  z-index: -1;
+}
+main section article:hover::before {
+  left: 0;
+  opacity: 1;
+}
+
+main section article.inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-between;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section article.inner .txt {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+main section article.inner .txt h2 {
+  color: #fff;
+}

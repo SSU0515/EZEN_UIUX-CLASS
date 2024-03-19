@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://media.istockphoto.com/id/165955232/vector/vector-illustrations-of-lined-paper-with-texture.jpg?s=612x612&w=0&k=20&c=qKX-dxmDd5o9wRFfPWiKlSDBW6HUiPrN9MxMT9eWfcU=")
+    center/cover no-repeat;
+}
+header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px 0;
+  font-family: "Madimi One";
+}
+input[type="text"] {
+  border: none;
+  width: 500px;
+  height: 35px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="text"]:focus::placeholder {
+  opacity: 0;
+}
+input[type="submit"] {
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 20px;
+  background: #222;
+}
+.todo {
+  display: flex;
+  margin-bottom: 20px;
+  background: #222;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+}
+.todo-content {
+  padding-right: 300px;
+  text-align: center;
+  line-height: 35px;
+}
+ul li {
+  font-size: 20px;
+}
+ul button {
+  padding: 10px 0;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  background: none;
+  border-left: 1px dotted #fff;
+}
+
+ul button:hover {
+  color: yellow;
+}
+.complete {
+  color: #888;
+  text-decoration: line-through;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: linear-gradient(150deg, #4d9ffd, #5e3db6, #220340, #220340, #000);
+  overflow-x: hidden;
+}
+.progressWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: palevioletred;
+}
+.bar {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  transition: width 0.4s;
+}
+.submarine {
+  position: fixed;
+  top: 5%;
+  width: 120px;
+}
+
+.octopus {
+  position: fixed;
+  right: 0;
+  bottom: -150px;
+  z-index: 1;
+  width: 300px;
+  opacity: 0.4;
+  transition: all 2s;
+}
+.depthWrap {
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+  color: #fff;
+  font: bold 20px/1 "arial";
+  border-bottom: 2px dashed #fff;
+  padding-bottom: 10px;
+}
+.depthWrap span {
+  display: inline-block;
+  width: 40px;
+  font-size: 35px;
+}

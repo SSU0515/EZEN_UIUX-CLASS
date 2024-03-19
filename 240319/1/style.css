@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.gateBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  font-size: 20px;
+}
+
+.top {
+  padding: 20px 30px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.bottom {
+  border: 2px solid #fff;
+  border-top: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom a {
+  padding: 20px 0;
+  width: 50%;
+  text-align: center;
+}
+
+.bottom a:hover {
+  background: rgb(255, 244, 246);
+  color: #000;
+}
+
+.line {
+  border: 1px solid #fff;
+}
+
+.cursoritem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.circle {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  margin: -60px, -60px;
+  background: url("./house_1f3e0.png") center/cover no-repeat;
+  opacity: 0.7;
+  transition: all 0.2s;
+}

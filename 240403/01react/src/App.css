@@ -1,0 +1,13 @@
+body {
+  padding: 20px;
+}
+.wrap {
+  margin: 0 auto;
+  width: 500px;
+}
+.wrap section {
+  margin-bottom: 10px;
+  padding: 20px;
+  background: #ffebef;
+  border-radius: 5px;
+}

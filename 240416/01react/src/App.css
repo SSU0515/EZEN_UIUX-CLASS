@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+body {
+  height: 100vh;
+  background: url(https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?cs=srgb&dl=pexels-pixabay-531767.jpg&fm=jpg)
+    center/cover no-repeat;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.weatherBox {
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.weatherButton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

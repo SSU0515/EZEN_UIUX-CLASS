@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Poor+Story&display=swap");
+/* font-family: "Gaegu", sans-serif; */
+/* font-family: "Poor Story", system-ui; */
+
+body {
+  width: 100%;
+  height: 75vh;
+  margin-top: 100px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gaegu", sans-serif;
+}
+#root {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 7px 29px rgba(100, 100, 100, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -2,14 +2,6 @@
   text-align: center;
 }
 
-.homepage {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  gap: 30px;
-  margin: 0 20px;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

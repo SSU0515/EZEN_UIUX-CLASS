@@ -1,0 +1,18 @@
+{
+  "name": "240502",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
